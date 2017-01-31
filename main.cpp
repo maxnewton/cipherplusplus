@@ -15,7 +15,7 @@
 
 using namespace std;
 
-int main() {
+void testCaesar() {
 	string input;
 	int shift;
 
@@ -26,6 +26,18 @@ int main() {
 	cin >> shift;
 	
 	cout << caesar(input, shift) << "\n";
+}
 
+void testRot13() {
+	string plaintext;
+	
+	cout << "Enter plain text: ";
+	getline(cin, plaintext);
+
+	cout << rot13(plaintext);
+}
+
+int main() {
+	testRot13();
 	return 0;
 }

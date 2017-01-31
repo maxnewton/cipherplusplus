@@ -22,3 +22,7 @@ std::string caesar(std::string text, int shift) {
 	}
 	return text;
 }
+
+std::string rot13(std::string text) {
+	return caesar(text, 13);
+}

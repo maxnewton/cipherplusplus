@@ -6,9 +6,7 @@
  * commercially, as long as you give appropriate credit, provide a link to the license, and
  * indicate if changes were made. You may do so in any reasonable manner, but not in any way
  * that suggests the licensor endorses you or your use.
- *
- * For more information, visit:
- * <wiki.creativecommons.com/wiki/License_Versions#Detailed_attribution_comparison_chart>.
+ */
 
 
 # include <iostream>

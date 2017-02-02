@@ -16,28 +16,6 @@
 
 using namespace std;
 
-void testCaesar() {
-	string input;
-	int shift;
-
-	cout << "Enter string: ";
-	getline(cin, input);
-
-	cout << "Shift value: ";
-	cin >> shift;
-	
-	cout << caesar(input, shift) << "\n";
-}
-
-void testRot13() {
-	string plaintext;
-	
-	cout << "Enter plain text: ";
-	getline(cin, plaintext);
-
-	cout << rot13(plaintext);
-}
-
 void testAtbash() {
 	string plaintext;
 	

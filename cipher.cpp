@@ -10,11 +10,13 @@
  * endorses you or your use.
  */
 
+# include <iostream>
 # include <string>
 
 std::string atbash(std::string text) {
 	for (std::string::iterator i=text.begin(); i!=text.end(); ++i) {
-		if (std::isalpha(*i)) *i = 'z' - *i;
+		if (std::isalpha(*i) && std::islower(*i)) *i = 'a' + ('z' - *i);
+		else if (std::isalpha(*i) && std::isupper(*i)) *i = 'A' + ('Z' - *i);
 	}
 	return text;
 }

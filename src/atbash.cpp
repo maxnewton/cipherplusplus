@@ -12,51 +12,15 @@
 
 # include <iostream>
 # include <string>
-# include "cipher.h"
+# include "../include/cipher.h"
 
 using namespace std;
 
-const string version = "1.0";
-
 void runAtbash() {
 	string text;
+
 	cout << "Enter string: ";
 	getline(cin, text);
 	
-	cout << atbash(text) << endl;	
-}
-
-void runCaesar() {
-	string text;
-	int shift;
-
-	cout << "Enter string ";
-	getline(cin, text);
-
-	cout << "Shift: ";
-	cin >> shift;
-
-	cout << caesar(text, shift) << endl;
-}
-
-int main() {
-	cout << "Simple Cipher v" << version << endl;
-	cout << "------------------" << endl;
-	cout << "Pick a cipher:" << endl << endl;
-	cout << "1. Atbash" << endl;
-	cout << "2. Caesar" << endl;
-	cout << "3. ROT13" << endl << endl;
-	cout << ">: ";
-
-	int select;
-	cin >> select;
-	cout << endl;
-
-	switch(select) {
-		case 1: runAtbash(); break;
-		case 2: runCaesar(); break;
-		case 3: cout << "ROT13"; break;
-	}
-
-	return 0;
+	cout << atbash(text) << endl;
 }

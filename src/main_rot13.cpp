@@ -10,35 +10,9 @@
  * endorses you or your use.
  */
 
-# include <iostream>
-# include <string>
-# include "../include/cipher.h"
-# include "atbash.h"
-# include "caesar.h"
 # include "rot13.h"
 
-using namespace std;
-
-const string version = "1.0";
-
 int main() {
-	cout << "Simple Cipher v" << version << endl;
-	cout << "------------------" << endl;
-	cout << "Pick a cipher:" << endl << endl;
-	cout << "1. Atbash" << endl;
-	cout << "2. Caesar" << endl;
-	cout << "3. ROT13" << endl << endl;
-	cout << ">: ";
-
-	int select;
-	cin >> select;
-	cout << endl;
-
-	switch(select) {
-		case 1: runAtbash(); break;
-		case 2: runCaesar(); break;
-		case 3: runRot13(); break;
-	}
-
+	runRot13();
 	return 0;
 }

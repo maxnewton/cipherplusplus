@@ -17,7 +17,7 @@ If you like what I do and want to see more, [consider becoming a Patreon support
 
 # How to install
 
-Cipher++ is designed to be a portable library that can be included in any project. To include Cipher++ in your project, simply download or clone this repositor and copy the contents of the "include" folder into your own C++ project.
+Cipher++ is designed to be a portable library that can be included in any project. To include Cipher++ in your project, simply download or clone this repository and copy the contents of the "include" folder into your own C++ project.
 
 To download and compile the sample programs that come with Cipher++, choose from one of the following options. First, download or clone the repository:
 

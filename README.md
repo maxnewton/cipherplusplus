@@ -1,5 +1,5 @@
-# Simple Cipher
-Simple Cipher is a C++ library of cryptographic functions that let you easily encode and decode text using popular historical cipher protocols, including:
+# Cipher++
+Cipher++ is a C++ library of cryptographic functions that let you easily encode and decode text using popular historical cipher protocols, including:
 
 * Substitution ciphers
   * Atbash cipher

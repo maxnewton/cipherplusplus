@@ -2,7 +2,7 @@
 Simple Cipher is a C++ library of cryptographic functions that let you easily encode and decode text using popular historical cipher protocols, including:
 
 * Substitution ciphers
-  * Atbash cipher (not implemented yet)
+  * Atbash cipher
   * Caesar cipher
   * ROT13 cipher
 * Transposition ciphers
